@@ -1,13 +1,14 @@
 import { NextSeoProps } from "next-seo";
 
 const config: NextSeoProps = {
-    title: "Title of your website/app",
-    description: "Description",
+    title: "Annamaya Restaurant",
+    description: "Annamaya Pure Veg, Multi Cuisine Restaurant and Bar in Byculla, Lalbaug, Mumbai, Maharashtra, India",
+    canonical: "https://www.annamayarestaurant.in/",
     openGraph: {
         type: 'website',
         locale: 'en_IN',
-        url: 'Domain you bought',
-        site_name: "Name for your site, eg. company name or brand name"
+        url: 'https://annamayarestaurant.in/',
+        site_name: "Annamaya Multi Cuisine Restaurant and Bar"
     }
 }
 

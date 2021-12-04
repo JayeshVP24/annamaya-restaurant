@@ -10,6 +10,7 @@ class Document extends NextDocument<Props> {
             <Html lang="en">
                 <Head>
                     {/* Create all your favicons and put them inside public/favicons folder */}
+
                     <link
                         rel="apple-touch-icon"
                         sizes="180x180"
@@ -30,13 +31,27 @@ class Document extends NextDocument<Props> {
                     <link rel="manifest" href="/favicons/site.webmanifest" />
                     <link
                         rel="mask-icon"
-                        href="/favicon/safari-pinned-tab.svg"
-                        color="#454545"
+                        href="/favicons/safari-pinned-tab.svg"
+                        color="#d9a011"
                     />
-                    <meta name="msapplication-TileColor" content="#454545" />
-                    <meta name="theme-color" content="#454545" />
+                    <meta name="msapplication-TileColor" content="#150835" />
+                    <meta name="theme-color" content="#000" />
+<meta name="google-site-verification" content="2el3m1OMIScV9Hvbz3B-dA1V25220NkSdfIkNiLrAtE" />
+                    <link
+                        rel="preconnect"
+                        href="https://fonts.googleapis.com"
+                    />
+                    <link
+                        rel="preconnect"
+                        href="https://fonts.gstatic.com"
+                        crossOrigin="use-credentials"
+                    />
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Pacifico&family=Paprika&family=Poppins:wght@300;400;500;600;700&display=swap"
+                        rel="stylesheet"
+                    />
                 </Head>
-                <body className="">
+                <body className="bg-bg text-white font-poppins">
                     <Main />
                     <NextScript />
                 </body>

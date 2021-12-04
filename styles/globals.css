@@ -1,3 +1,43 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Paprika&family=Poppins:wght@300;400;500;600;700&display=swap'); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper-wrapper {
+    padding-inline-start: 0;
+}
+
+.swiper-pagination-bullet {
+    background: var(--swiper-pagination-color,#E7D990) !important;
+    width: var(--swiper-pagination-bullet-width,var(--swiper-pagination-bullet-size,14px)) !important;
+    height: var(--swiper-pagination-bullet-height,var(--swiper-pagination-bullet-size,14px)) !important;
+    cursor: pointer !important;
+    transform: scale(1);
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--swiper-pagination-color,#F3D950) !important;
+    transform: scale(1.2);
+}
+
+.swiper-button-disabled {
+    cursor: default;
+    opacity: 40%;   
+}
+
+.swiper-button-disabled:hover {
+    background-color: transparent !important;
+}
+.drinksPagination{
+    width: auto !important;
+}
+.listStyleNone {
+    list-style: "none"
+}
+
+
+.heroWrapper > * {
+    margin: 0 auto !important;
+    display: block !important;
+}
